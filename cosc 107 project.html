@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  body {background-color: lightsteelblue;}
+  margin
+</style>
+    <img style="width:400px; height:300 " src="Screenshot_20240218_234114_Samsung Internet.jpg">
+</style>
+<h3 style="color:blue">OLD IPHONE GIVEAWAY</h3>
+<h4 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+  Giveaway Ends On Thursday March 2024 At 11:30am</h4>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       Expedita corporis nisi totam, accusamus optio assumenda laborum, nemo quisquam animi tenetur,
+        voluptatem obcaecati recusandae adipisci dolores? Ab facere veritatis labore!</p>
+</div>
+</body>
+</html><title>Countdown Timer</title>
+<style>
+  .countdown {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 24px;
+  }
+</style>
+</head>
+<body>
+
+<div class="countdown" id="countdown"></div>
+
+<script>
+
+var countDownDate = new Date("March 7, 2024 11:30:00").getTime();
+
+var x = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("countdown").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+</body></div>
